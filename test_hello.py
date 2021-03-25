@@ -1,6 +1,7 @@
 # test_app.py
 from hello import app
 
+
 def test_hello():
     response = app.test_client().get('/')
 
