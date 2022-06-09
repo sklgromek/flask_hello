@@ -17,9 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |
-        true
+        false
   fail:
    runs-on: ubuntu-latest
    steps:
    - run: |
-      false
+      true
